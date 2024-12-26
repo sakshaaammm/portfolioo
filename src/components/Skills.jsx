@@ -34,7 +34,7 @@ const Skills = () => {
         <h2 className="text-4xl font-bold mb-8">Skills</h2>
         
         {/* Technical Skills */}
-        <div className="space-y-6 mb-12">
+        <div className="space-y-6 mb-16">  {/* Increased bottom margin */}
           {skills.map((skill, index) => (
             <motion.div
               key={skill.name}
@@ -59,7 +59,7 @@ const Skills = () => {
         </div>
 
         {/* DSA Achievement Section */}
-        <div className="mb-12">
+        <div className="mt-20 mb-12">  {/* Added top margin for more spacing */}
           <h3 className="text-2xl font-bold mb-4">DSA Achievements</h3>
           <div className="glass p-4">
             <p className="text-lg mb-4">Solved 200+ DSA Problems across various platforms</p>
